@@ -74,6 +74,8 @@ Sincerely,
 
 Priya Singh
 
+----------------------------------------
+
 ### 1.1 Scenario C: Creative Content
 
 #### Goal
@@ -104,6 +106,8 @@ You are an award-winning brand strategist and copywriter. Create 10 short, memor
 9. Refresh Yourself, Respect Nature.
 10. One Bottle. Infinite Difference.
 
+------------------------------------------
+
 ## 1.2 Iteration Documentation
 
 ### Scenario A: Technical Explanation
@@ -132,7 +136,8 @@ You are an award-winning brand strategist and copywriter. Create 10 short, memor
 ## 1.3 Role and Context Analysis
 
 Role assignment and context setting significantly improved the quality of the generated outputs. In Scenario A, assigning the role of an elementary school teacher helped the model adapt its language and explanation style to suit a young audience. In Scenario B, the role of a professional career advisor resulted in a more polished, realistic, and professional email. Context setting clarified the audience, purpose, and expected tone, reducing ambiguity and producing more accurate responses. Overall, combining role assignment with contextual information made the outputs more targeted, coherent, and effective.
----
+
+--------------------------------------------------------------------
 
 ## Part 2: Temperature & Parameter Control
 
@@ -186,7 +191,8 @@ The lighthouse appeared only when the moon turned silver-blue. Sailors claimed i
 ### 2.2 Analysis & Recommendations
 
 Low temperature settings are most useful when accuracy and consistency are important. Examples include technical documentation and legal or policy writing. High temperature settings are useful for creative writing, brainstorming, marketing campaigns, and idea generation. In this experiment, the medium temperature produced the best result because it balanced creativity with coherence. The high-temperature output was the most imaginative, while the low-temperature output was the most predictable and structured.
----
+
+-------------------------------------------------------------
 
 ## Part 3: Strategic Prompting Techniques
 
@@ -298,7 +304,8 @@ Few-shot prompting is most useful when the desired output format is complex or w
 ### Part 3 Reflection
 
 This section demonstrated the effectiveness of advanced prompting techniques. Chain-of-thought prompting improved transparency by revealing the reasoning process behind the final answer. Few-shot prompting helped establish clear patterns and expectations, resulting in more consistent classifications. Together, these techniques show how prompt design can significantly influence the quality and reliability of LLM outputs.
----
+
+---------------------------------------------------------------
 
 ## Part 4: Responsible AI & Limitations
 
@@ -354,7 +361,7 @@ Recommend professional attire for a job interview while considering different cu
 
 The revised prompt encourages a more inclusive and balanced response. It reduces the likelihood of the model assuming a single cultural standard and acknowledges the diversity of professional environments around the world.
 
----
+-----------------------------------------------------------------
 
 ### 4.3 Limitations & Responsible Use
 
@@ -373,3 +380,6 @@ The revised prompt encourages a more inclusive and balanced response. It reduces
 #### Reflection
 
 Through this assignment, I learned that prompt engineering plays a crucial role in determining the quality of LLM outputs. Techniques such as role prompting, context setting, chain-of-thought reasoning, and few-shot learning can significantly improve accuracy and usefulness. At the same time, LLMs have limitations that require careful evaluation of their responses. Responsible use involves verifying information, recognizing potential biases, and understanding when human judgment is necessary. Overall, prompt engineering is an essential skill for effectively and ethically working with modern AI systems.
+
+
+This assignment demonstrated that effective prompt engineering can significantly improve output quality while also highlighting the importance of critical evaluation and responsible AI usage.
