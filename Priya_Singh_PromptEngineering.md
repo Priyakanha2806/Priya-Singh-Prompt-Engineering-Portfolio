@@ -73,3 +73,33 @@ Thank you again for your understanding, and I wish you and your team continued s
 Sincerely,
 
 Priya Singh
+
+### 1.1 Scenario C: Creative Content
+
+#### Goal
+Generate a creative marketing tagline for a new eco-friendly water bottle brand.
+
+#### Initial Prompt (V1)
+
+Create a tagline for an eco-friendly water bottle.
+
+#### Refined Prompt (V2)
+
+Create five catchy marketing taglines for an eco-friendly reusable water bottle aimed at environmentally conscious consumers.
+
+#### Final Prompt (V3)
+
+You are an award-winning brand strategist and copywriter. Create 10 short, memorable, and emotionally appealing taglines for a premium eco-friendly reusable water bottle brand. The taglines should communicate sustainability, modern lifestyle, and environmental responsibility. Each tagline should be under 8 words.
+
+#### Final Output
+
+1. Sip Sustainably, Live Responsibly.
+2. Every Refill Saves Tomorrow.
+3. Drink Green, Live Clean.
+4. Hydration with a Purpose.
+5. Refill Today, Protect Tomorrow.
+6. Carry Change in Every Sip.
+7. Good for You, Better for Earth.
+8. Sustainable Sips, Endless Impact.
+9. Refresh Yourself, Respect Nature.
+10. One Bottle. Infinite Difference.
