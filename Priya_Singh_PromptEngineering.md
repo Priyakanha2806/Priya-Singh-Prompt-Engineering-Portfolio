@@ -186,3 +186,52 @@ The lighthouse appeared only when the moon turned silver-blue. Sailors claimed i
 ### 2.2 Analysis & Recommendations
 
 Low temperature settings are most useful when accuracy and consistency are important. Examples include technical documentation and legal or policy writing. High temperature settings are useful for creative writing, brainstorming, marketing campaigns, and idea generation. In this experiment, the medium temperature produced the best result because it balanced creativity with coherence. The high-temperature output was the most imaginative, while the low-temperature output was the most predictable and structured.
+---
+
+## Part 3: Strategic Prompting Techniques
+
+### 3.1 Chain-of-Thought Prompting
+
+#### Selected Problem: Option B – Multi-Step Reasoning
+
+Problem:
+
+A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
+
+### Without Chain-of-Thought
+
+#### Prompt
+
+A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring? Give only the final answer.
+
+#### Output
+
+172 employees
+
+### With Chain-of-Thought
+
+#### Prompt
+
+Let's solve this step by step.
+
+A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
+
+#### Output
+
+Engineering employees = 150 × 60% = 90
+
+Sales employees = 150 × 25% = 37.5 ≈ 38
+
+Operations employees = 150 − 90 − 38 = 22
+
+Additional engineers hired = 90 × 20% = 18
+
+Additional sales employees hired = 38 × 10% = 4
+
+Total employees after hiring = 150 + 18 + 4 = 172
+
+Final Answer: 172 employees
+
+### Comparison
+
+The output without chain-of-thought provided only the final answer. In contrast, the chain-of-thought approach showed every calculation step used to reach the solution. This made the reasoning process transparent and easier to verify. Chain-of-thought prompting is especially useful for mathematical, logical, and multi-step reasoning tasks. However, it can sometimes produce longer responses than necessary.
