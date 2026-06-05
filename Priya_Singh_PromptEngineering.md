@@ -235,3 +235,66 @@ Final Answer: 172 employees
 ### Comparison
 
 The output without chain-of-thought provided only the final answer. In contrast, the chain-of-thought approach showed every calculation step used to reach the solution. This made the reasoning process transparent and easier to verify. Chain-of-thought prompting is especially useful for mathematical, logical, and multi-step reasoning tasks. However, it can sometimes produce longer responses than necessary.
+### 3.2 Few-Shot Prompting
+
+#### Task
+Create a sentiment classifier using few-shot prompting.
+
+### Step 1: Zero-Shot Attempt
+
+#### Prompt
+
+Classify each customer review as Positive, Negative, or Neutral.
+
+#### Results
+
+| Review | Classification |
+|----------|---------------|
+| The product arrived damaged and customer service was unhelpful. | Negative |
+| Works as expected, nothing special but does the job. | Neutral |
+| Absolutely love this! Best purchase I've made all year! | Positive |
+| The quality is okay but slightly overpriced for what you get. | Neutral |
+| Terrible experience, would not recommend to anyone. | Negative |
+
+### Step 2: Few-Shot Attempt
+
+#### Prompt
+
+Review: "This product exceeded my expectations!"
+
+Sentiment: Positive
+
+Review: "Completely broke after one week of use."
+
+Sentiment: Negative
+
+Review: "It's fine, does what it says on the box."
+
+Sentiment: Neutral
+
+Now classify the following reviews as Positive, Negative, or Neutral.
+
+#### Results
+
+| Review | Classification |
+|----------|---------------|
+| The product arrived damaged and customer service was unhelpful. | Negative |
+| Works as expected, nothing special but does the job. | Neutral |
+| Absolutely love this! Best purchase I've made all year! | Positive |
+| The quality is okay but slightly overpriced for what you get. | Neutral |
+| Terrible experience, would not recommend to anyone. | Negative |
+
+### Step 3: Analysis
+
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+|----------|-----------------|----------------|---------------|-----------|
+| 1 | Negative | Negative | Negative | No Change |
+| 2 | Neutral | Neutral | Neutral | No Change |
+| 3 | Positive | Positive | Positive | No Change |
+| 4 | Neutral | Neutral | Neutral | No Change |
+| 5 | Negative | Negative | Negative | No Change |
+
+Few-shot prompting is most useful when the desired output format is complex or when the task requires specific patterns to be followed. By providing examples, the model can better understand the expected response style and classification criteria. Few-shot prompting generally improves consistency, accuracy, and reliability, especially for specialized tasks.
+### Part 3 Reflection
+
+This section demonstrated the effectiveness of advanced prompting techniques. Chain-of-thought prompting improved transparency by revealing the reasoning process behind the final answer. Few-shot prompting helped establish clear patterns and expectations, resulting in more consistent classifications. Together, these techniques show how prompt design can significantly influence the quality and reliability of LLM outputs.
