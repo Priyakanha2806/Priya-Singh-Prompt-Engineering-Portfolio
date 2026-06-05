@@ -132,3 +132,57 @@ You are an award-winning brand strategist and copywriter. Create 10 short, memor
 ## 1.3 Role and Context Analysis
 
 Role assignment and context setting significantly improved the quality of the generated outputs. In Scenario A, assigning the role of an elementary school teacher helped the model adapt its language and explanation style to suit a young audience. In Scenario B, the role of a professional career advisor resulted in a more polished, realistic, and professional email. Context setting clarified the audience, purpose, and expected tone, reducing ambiguity and producing more accurate responses. Overall, combining role assignment with contextual information made the outputs more targeted, coherent, and effective.
+---
+
+## Part 2: Temperature & Parameter Control
+
+### 2.1 Temperature Experimentation
+
+#### Chosen Task
+Creating a short story opening (2–3 sentences)
+
+#### Base Prompt
+
+Write the opening of a short story about a mysterious lighthouse.
+
+### Low Temperature (0.2)
+
+**Prompt Used:**
+
+Write the opening of a short story about a mysterious lighthouse. Be precise and consistent.
+
+**Output:**
+
+The lighthouse stood alone on a rocky island off the coast. Every night, its light shone across the sea, even though no lighthouse keeper had lived there for decades. Local fishermen avoided the area and refused to speak about it.
+
+### Medium Temperature (0.7)
+
+**Prompt Used:**
+
+Write the opening of a short story about a mysterious lighthouse.
+
+**Output:**
+
+The old lighthouse rose from the cliffs like a forgotten guardian of the sea. On stormy nights, its beam swept across the dark water, though nobody knew who operated it. The villagers whispered stories about strange figures seen near its entrance.
+
+### High Temperature (1.3)
+
+**Prompt Used:**
+
+Write the opening of a short story about a mysterious lighthouse. Be creative and explore diverse ideas.
+
+**Output:**
+
+The lighthouse appeared only when the moon turned silver-blue. Sailors claimed it drifted across the ocean like a wandering ghost, guiding lost ships toward impossible horizons. Those who followed its light returned with memories that did not belong to them.
+
+### Comparison Table
+
+| Temperature | Style | Creativity | Consistency |
+|------------|--------|------------|------------|
+| Low (0.2) | Factual and direct | Low | High |
+| Medium (0.7) | Balanced | Medium | High |
+| High (1.3) | Imaginative and unusual | High | Medium |
+
+### 2.2 Analysis & Recommendations
+
+Low temperature settings are most useful when accuracy and consistency are important. Examples include technical documentation and legal or policy writing. High temperature settings are useful for creative writing, brainstorming, marketing campaigns, and idea generation. In this experiment, the medium temperature produced the best result because it balanced creativity with coherence. The high-temperature output was the most imaginative, while the low-temperature output was the most predictable and structured.
