@@ -36,3 +36,40 @@ These helpers pass information to other helpers, who combine the clues and make 
 Think of it like learning to identify different dog breeds. At first, you make mistakes, but after seeing many examples, you get better and better. Neural networks learn in a similar way by practicing with lots of examples.
 
 That's why neural networks can help computers recognize faces, understand speech, and recommend videos.
+
+### 1.1 Scenario B: Professional Email
+
+#### Goal
+Draft an email declining a job offer politely while expressing continued interest in the company.
+
+#### Initial Prompt (V1)
+
+Write an email declining a job offer.
+
+#### Refined Prompt (V2)
+
+Write a professional email declining a job offer while thanking the employer for the opportunity.
+
+#### Final Prompt (V3)
+
+You are a professional career advisor. Write a formal email to decline a job offer because another opportunity was accepted. Express sincere gratitude, maintain a positive relationship, and mention interest in future opportunities with the company. Keep the tone professional and respectful.
+
+#### Final Output
+
+Subject: Thank You for the Opportunity
+
+Dear Hiring Manager,
+
+Thank you very much for offering me the opportunity to join your organization. I sincerely appreciate the time and effort that you and your team invested throughout the recruitment process.
+
+After careful consideration, I have decided to accept another opportunity that aligns more closely with my current career goals. Therefore, I must respectfully decline your offer.
+
+This decision was not easy, as I was genuinely impressed by your company's culture, values, and the professionalism of everyone I met during the process.
+
+I am grateful for your confidence in my abilities and hope our paths may cross again in the future. I would welcome the opportunity to stay connected and explore potential opportunities with your organization at a later date.
+
+Thank you again for your understanding, and I wish you and your team continued success.
+
+Sincerely,
+
+Priya Singh
