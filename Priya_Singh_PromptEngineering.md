@@ -103,3 +103,32 @@ You are an award-winning brand strategist and copywriter. Create 10 short, memor
 8. Sustainable Sips, Endless Impact.
 9. Refresh Yourself, Respect Nature.
 10. One Bottle. Infinite Difference.
+
+## 1.2 Iteration Documentation
+
+### Scenario A: Technical Explanation
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|---------|--------------|------------------------------|
+| V1 | Explain neural networks. | N/A | N/A |
+| V2 | Explain neural networks in simple language that a middle-school student can understand. Use examples and avoid technical jargon. | Added audience specification and simplicity requirements. | The explanation became easier to understand and less technical. |
+| V3 | You are an expert elementary school teacher. Explain neural networks to a 10-year-old child using simple words, a real-life example, and a fun analogy. Keep the explanation under 200 words and make it engaging. | Added role assignment, context, analogy, and length constraints. | Produced a more engaging, age-appropriate explanation. |
+
+### Scenario B: Professional Email
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|---------|--------------|------------------------------|
+| V1 | Write an email declining a job offer. | N/A | N/A |
+| V2 | Write a professional email declining a job offer while thanking the employer for the opportunity. | Added professional tone and gratitude requirement. | Resulted in a more courteous and professional email. |
+| V3 | You are a professional career advisor. Write a formal email to decline a job offer because another opportunity was accepted. Express sincere gratitude, maintain a positive relationship, and mention interest in future opportunities with the company. | Added role assignment, context, and relationship-building requirements. | Generated a realistic and polished professional email. |
+
+### Scenario C: Creative Content
+
+| Version | Prompt | What Changed | Why This Improved the Output |
+|----------|---------|--------------|------------------------------|
+| V1 | Create a tagline for an eco-friendly water bottle. | N/A | N/A |
+| V2 | Create five catchy marketing taglines for an eco-friendly reusable water bottle aimed at environmentally conscious consumers. | Added audience and quantity requirements. | Produced more diverse and relevant taglines. |
+| V3 | You are an award-winning brand strategist and copywriter. Create 10 short, memorable, and emotionally appealing taglines for a premium eco-friendly reusable water bottle brand. | Added role assignment, brand context, emotional appeal, and constraints. | Generated stronger and more marketable taglines. |
+## 1.3 Role and Context Analysis
+
+Role assignment and context setting significantly improved the quality of the generated outputs. In Scenario A, assigning the role of an elementary school teacher helped the model adapt its language and explanation style to suit a young audience. In Scenario B, the role of a professional career advisor resulted in a more polished, realistic, and professional email. Context setting clarified the audience, purpose, and expected tone, reducing ambiguity and producing more accurate responses. Overall, combining role assignment with contextual information made the outputs more targeted, coherent, and effective.
